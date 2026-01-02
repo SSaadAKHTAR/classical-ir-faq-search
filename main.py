@@ -26,9 +26,6 @@ def load_faq_dataset(filepath):
 
 
 def preprocess_text(text):
-    """
-    Lowercasing, punctuation removal, tokenization
-    """
     text = text.lower()
 
     cleaned_text = ""
@@ -156,14 +153,33 @@ if __name__ == "__main__":
     idf = compute_idf(documents, vocabulary)
 
     documents = compute_all_tfidf(documents, idf)
+    
+    print("FAQ Retrieval System (type 'exit' to quit)\n")
 
-    query = "what is neural networks"
+    while True:
+        query = input("Enter your query: ").strip()
+        results = get_top_answers(query, documents, idf, top_n=3)
 
-    results = get_top_answers(query, documents, idf, top_n=3)
+        print("\nTop Retrieved Answers:\n")
+        for res in results:
+            print("Score:", round(res["score"], 4))
+            print("Q:", res["question"])
+            print("A:", res["answer"])
+            print("-" * 50)
 
-    print("\nTop Retrieved Answers:\n")
-    for res in results:
-        print("Score:", round(res["score"], 4))
-        print("Q:", res["question"])
-        print("A:", res["answer"])
-        print("-" * 50)
+        if query.lower() in ["exit", "quit", "q"]:
+            print("Exiting FAQ Retrieval System.")
+            break
+
+        if not query:
+            print("Please enter a valid query.\n")
+            continue
+
+    # results = get_top_answers(query, documents, idf, top_n=3)
+
+    # print("\nTop Retrieved Answers:\n")
+    # for res in results:
+    #     print("Score:", round(res["score"], 4))
+    #     print("Q:", res["question"])
+    #     print("A:", res["answer"])
+    #     print("-" * 50)
