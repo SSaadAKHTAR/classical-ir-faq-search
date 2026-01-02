@@ -174,6 +174,7 @@ if __name__ == "__main__":
         if not query:
             print("Please enter a valid query.\n")
             continue
+    # query = "What is machine learning?"
 
     # results = get_top_answers(query, documents, idf, top_n=3)
 
