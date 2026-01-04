@@ -54,9 +54,3 @@ Follow these steps to run the project and verify its functionality:
 5.  **Generate FAQs**:
     -   Select **Option 3** from the main menu.
     -   Enter `5` to generate 5 automatic Q&A pairs from the content.
-
-6.  **Run Tests** (Optional):
-    -   To verify the integrity of the code:
-        ```bash
-        python test_main.py
-        ```
