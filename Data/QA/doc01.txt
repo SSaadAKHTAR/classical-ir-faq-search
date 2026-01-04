@@ -1,0 +1,64 @@
+WHO Questions:
+
+Who coined the term "artificial intelligence"?
+
+Expected: John McCarthy
+
+
+Who developed AlexNet?
+
+Expected: Alex Krizhevsky
+
+
+Who invented the first neural network concept?
+
+Expected: Warren McCulloch and Walter Pitts
+
+
+
+WHAT Questions:
+4. What is machine learning?
+
+Expected: a subset of artificial intelligence that enables systems to learn from experience
+
+
+What are the three main types of machine learning?
+
+Expected: supervised learning, unsupervised learning, reinforcement learning
+
+
+
+WHEN Questions:
+6. When was artificial intelligence founded as an academic discipline?
+
+Expected: 1956
+
+
+When did Google Translate launch?
+
+Expected: 2006
+
+
+When was the first industrial robot installed?
+
+Expected: 1961
+
+
+
+WHERE Questions:
+9. Where was the Dartmouth Conference held?
+
+Expected: Dartmouth College in New Hampshire
+
+
+Where did Alex Krizhevsky develop AlexNet?
+
+Expected: University of Toronto
+
+
+
+HOW MANY Questions:
+11. How many types of machine learning are there?
+- Expected: three
+12. How many languages can Google Translate handle?
+- Expected: over 100

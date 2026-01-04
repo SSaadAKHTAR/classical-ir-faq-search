@@ -1,0 +1,29 @@
+The History and Evolution of the Internet
+
+The internet is a global network of interconnected computers that communicate through standardized protocols. The internet has revolutionized communication, commerce, and information sharing, fundamentally changing how society operates in the 21st century.
+
+The origins of the internet trace back to the 1960s when the United States Department of Defense developed ARPANET, the Advanced Research Projects Agency Network. ARPANET was created in 1969 and sent its first message on October 29, 1969, between computers at UCLA and Stanford Research Institute. The first message attempted was "LOGIN" but the system crashed after transmitting only "LO."
+
+The concept of packet switching, fundamental to internet communication, was developed independently by Paul Baran at RAND Corporation and Donald Davies at the National Physical Laboratory in the United Kingdom during the early 1960s. Packet switching breaks data into small packets that can travel different routes to their destination, making communication more efficient and reliable.
+
+The Transmission Control Protocol and Internet Protocol (TCP/IP) were developed by Vinton Cerf and Robert Kahn in the 1970s. TCP/IP became the standard protocol for ARPANET on January 1, 1983, a date often considered the official birthday of the internet. Vinton Cerf is frequently called the "Father of the Internet" for his pioneering work.
+
+Email was invented by Ray Tomlinson in 1971 while working on ARPANET. Tomlinson sent the first network email and chose the @ symbol to separate the user name from the computer name, a convention still used today. The first email message was sent between two computers sitting side by side in Cambridge, Massachusetts.
+
+The Domain Name System (DNS) was introduced in 1983 by Paul Mockapetris to translate human-readable domain names into numerical IP addresses. The first registered domain name was Symbolics.com on March 15, 1985, by the Massachusetts computer company Symbolics Inc. Today, there are over 350 million registered domain names worldwide.
+
+The World Wide Web was invented by Tim Berners-Lee in 1989 while working at CERN, the European Organization for Nuclear Research, in Geneva, Switzerland. Berners-Lee created the first web browser and web server, and the first website went live on August 6, 1991, at the address http://info.cern.ch. The World Wide Web is often confused with the internet, but it is actually a service that operates over the internet.
+
+The first commercial internet service providers began operating in the late 1980s. The World became the first internet service provider for consumers in 1989, based in Brookline, Massachusetts. By 1995, the internet had become fully commercialized in the United States when the National Science Foundation decommissioned the NSFNET backbone.
+
+Web browsers made the internet accessible to the general public. Mosaic, developed by Marc Andreessen and Eric Bina at the National Center for Supercomputing Applications in 1993, was the first widely used graphical web browser. Netscape Navigator, released in 1994, became the dominant browser with over 90 percent market share by 1995.
+
+Search engines revolutionized how people find information online. Yahoo! was founded by Jerry Yang and David Filo at Stanford University in 1994. Google was founded by Larry Page and Sergey Brin on September 4, 1998, in a garage in Menlo Park, California. Google now processes over 8.5 billion searches per day.
+
+Social media platforms transformed online communication and social interaction. Six Degrees, launched in 1997, is considered the first recognizable social media site. Friendster launched in 2002, followed by MySpace in 2003. Facebook was founded by Mark Zuckerberg on February 4, 2004, at Harvard University and now has over 3 billion monthly active users.
+
+E-commerce has become a dominant force in retail. Amazon was founded by Jeff Bezos on July 5, 1994, in Seattle, Washington, initially selling only books. eBay was founded by Pierre Omidyar in September 1995 in San Jose, California. Global e-commerce sales reached approximately 5.7 trillion dollars in 2022.
+
+Mobile internet access expanded dramatically with the introduction of smartphones. The iPhone was announced by Steve Jobs on January 9, 2007, and released on June 29, 2007. As of 2023, approximately 60 percent of all web traffic comes from mobile devices. There are currently over 5 billion unique mobile internet users worldwide.
+
+The internet continues to evolve with emerging technologies like 5G networks, artificial intelligence, the Internet of Things (IoT), and blockchain. The number of internet users worldwide surpassed 5 billion in 2022, representing about 63 percent of the global population. Internet infrastructure continues to expand, bringing connectivity to previously underserved regions around the world.

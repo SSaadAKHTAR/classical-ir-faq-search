@@ -1,0 +1,74 @@
+WHO Questions:
+
+Who invented the World Wide Web?
+
+Expected: Tim Berners-Lee
+
+
+Who developed TCP/IP?
+
+Expected: Vinton Cerf and Robert Kahn
+
+
+Who invented email?
+
+Expected: Ray Tomlinson
+
+
+Who founded Google?
+
+Expected: Larry Page and Sergey Brin
+
+
+Who founded Facebook?
+
+Expected: Mark Zuckerberg
+
+
+
+WHAT Questions:
+6. What is ARPANET?
+
+Expected: the Advanced Research Projects Agency Network / precursor to the internet
+
+
+What was the first registered domain name?
+
+Expected: Symbolics.com
+
+
+
+WHEN Questions:
+8. When was ARPANET created?
+
+Expected: 1969
+
+
+When did TCP/IP become the standard protocol?
+
+Expected: January 1, 1983
+
+
+When was Facebook founded?
+
+Expected: February 4, 2004
+
+
+When was the iPhone released?
+
+Expected: June 29, 2007
+
+
+
+WHERE Questions:
+12. Where was the first ARPANET message sent?
+- Expected: between UCLA and Stanford Research Institute
+13. Where was Tim Berners-Lee working when he invented the web?
+- Expected: CERN in Geneva, Switzerland
+14. Where was Google founded?
+- Expected: Menlo Park, California
+HOW MANY Questions:
+15. How many searches does Google process per day?
+- Expected: over 8.5 billion
+16. How many domain names are registered worldwide?
+- Expected: over 350 million

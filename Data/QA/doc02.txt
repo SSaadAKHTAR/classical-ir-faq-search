@@ -1,0 +1,64 @@
+WHO Questions:
+
+Who established the IPCC?
+
+Expected: United Nations
+
+
+Who monitors global temperature changes?
+
+Expected: NASA's Goddard Institute / NOAA
+
+
+
+WHAT Questions:
+3. What is global warming?
+
+Expected: the long-term heating of Earth's surface
+
+
+What is the Paris Agreement?
+
+Expected: international agreement to limit global warming to below 2 degrees Celsius
+
+
+What are the main greenhouse gases?
+
+Expected: carbon dioxide, methane, nitrous oxide, water vapor
+
+
+
+WHEN Questions:
+6. When was the IPCC established?
+
+Expected: 1988
+
+
+When was the Paris Agreement signed?
+
+Expected: April 22, 2016
+
+
+When did the UK pass net-zero legislation?
+
+Expected: 2019
+
+
+
+WHERE Questions:
+9. Where is NOAA headquarters located?
+
+Expected: Silver Spring, Maryland
+
+
+Where was the Paris Agreement adopted?
+
+Expected: Paris, France
+
+
+
+HOW MANY Questions:
+11. How much has the average global temperature increased since the late 19th century?
+- Expected: 1.1 degrees Celsius
+12. How many countries signed the Paris Agreement?
+- Expected: 195 parties / 196 countries

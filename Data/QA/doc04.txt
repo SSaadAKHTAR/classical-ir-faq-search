@@ -1,0 +1,54 @@
+WHO Questions:
+
+Who would study anatomy and physiology?
+
+Expected: Scientists, doctors, anatomists, physiologists
+
+
+
+WHAT Questions:
+2. What is the largest muscle in the human body?
+
+Expected: gluteus maximus / buttocks muscle
+
+
+What is the function of the skeletal system?
+
+Expected: provides structure and support for the body
+
+
+What is the largest organ of the human body?
+
+Expected: skin
+
+
+
+WHEN/HOW OFTEN Questions:
+5. How many times does the heart beat per day?
+
+Expected: approximately 100,000 times
+
+HOW MANY Questions:
+6. How many bones does an adult human have?
+
+Expected: 206 bones
+
+
+How many neurons are in the brain?
+
+Expected: approximately 86 billion
+
+
+How many skeletal muscles are in the human body?
+
+Expected: over 600
+
+
+How many liters of blood does the heart pump daily?
+
+Expected: about 2,000 gallons / approximately 7,570 liters
+
+
+How many white blood cells per microliter in healthy adults?
+
+Expected: 4,000 to 11,000
