@@ -66,7 +66,6 @@ class InteractiveDocumentQA:
             i += 1
         print(f"\r[+] {message}... Done!   ")
     
-    # ==================== TEXT PROCESSING ====================
     
     def tokenize(self, text):
         """Tokenization"""
@@ -106,7 +105,6 @@ class InteractiveDocumentQA:
         paragraphs = [p.strip() for p in paragraphs if len(p.strip()) > 20]
         return paragraphs
     
-    # ==================== INDEXING ====================
     
     def load_document(self, document_text):
         """Load and index document with progress updates"""
@@ -176,7 +174,6 @@ class InteractiveDocumentQA:
             
             self.tf_idf_vectors.append(vector)
     
-    # ==================== RETRIEVAL ====================
     
     def bm25_score(self, query_terms, doc_idx):
         """Calculate BM25 score"""
@@ -234,7 +231,6 @@ class InteractiveDocumentQA:
         
         return results
     
-    # ==================== READING ====================
     
     def _classify_question_type(self, question):
         """Classify question type"""
@@ -321,7 +317,6 @@ class InteractiveDocumentQA:
             print("\n[ERROR] No document loaded. Please load a document first!")
             return None
         
-        # Verbose flag overrides for silent running if needed, but we keep UI minimal
         
         # Phase 1: Retrieval
         passages = self.retrieve_passages(question, top_k=5, verbose=False)
@@ -340,7 +335,6 @@ class InteractiveDocumentQA:
         
         return result
     
-    # ==================== FAQ GENERATION ====================
     
     def generate_faq(self, num_questions=5):
         """Generate FAQs from document"""
@@ -359,7 +353,6 @@ class InteractiveDocumentQA:
             
             sentence_scores[idx] = score
         
-        # Increase candidate pool to improve chances of finding good questions
         top_sentences = sorted(sentence_scores.items(), key=lambda x: x[1], reverse=True)[:num_questions*5]
         
         faqs = []
@@ -385,42 +378,30 @@ class InteractiveDocumentQA:
         """Generate question from sentence"""
         sentence_lower = sentence.lower()
         
-        # Try to find a definition pattern: "X is Y", "X are Y", "X refers to Y"
-        # We use a more permissive patter to capture the subject
+
         definition_match = re.search(r'^([\w\s\-]+(?:\s+\w+){0,5})\s+(?:is|are|refers to|means)\s+', sentence_lower)
         if definition_match:
             subject = definition_match.group(1).strip()
-            # Avoid questions where subject is too long or looks like a partial sentence
             if len(subject.split()) <= 6 and len(subject) > 2:
-                # Basic heuristics to avoid bad subjects like "it", "this", "they" (demonstrative pronouns)
                 if subject.lower() not in ['it', 'this', 'that', 'they', 'these', 'those', 'there', 'here']:
                     return f"What is {subject}?"
         
-        # Try to find a causal/explanation pattern: "because", "due to", "as a result"
         if any(marker in sentence_lower for marker in ['because', 'due to', 'leads to', 'results in', 'in order to']):
-             # If it's a "because" clause, we can try to turn the first part into a "Why" question
              if 'because' in sentence_lower:
                 parts = sentence_lower.split('because')
                 prefix = parts[0].strip()
                 if len(prefix) > 10:
-                    # Very naive attempt to convert statement to question
-                    # Ideally we'd use NLP, but here we just prepend "Why"
+
                     return f"Why {prefix}?"
              else:
-                 # Generic why question based on important keywords could be better, 
-                 # but for now let's fall back to "How/Why" on the whole sentence topic.
+
                  pass
 
-        # Fallback for high-value sentences: Generate a generic question based on the first noun phrase or main subject
-        # simpler fallback: "Tell me more about..." or "What is the significance of..."
-        # We can extract the first few words as a proxy for the topic if it looks like a noun phrase
+
         
         words = sentence.split()
         if len(words) > 3:
-            # Check if first few words are capitalized (likely a proper noun or title start) 
-            # or just use the first 2-3 words as a loose topic
             topic = ' '.join(words[:3])
-            # pattern check to ensure we don't end with a weird word
             if topic.lower() not in ['however,', 'moreover,', 'furthermore,', 'in addition,']:
                  return f"What can you tell me about {topic}?"
 
@@ -435,7 +416,6 @@ class InteractiveDocumentQA:
             print(f"   A: {faq['answer'][:150]}{'...' if len(faq['answer']) > 150 else ''}")
             print("-"*70)
     
-    # ==================== INTERACTIVE MENU ====================
     
     def show_menu(self):
         """Show main menu"""
@@ -573,8 +553,7 @@ Common applications of machine learning include recommendation systems used by N
         print("\nLet's get started!")
         
 
-        # Force document loading at startup
-        # Force document loading at startup
+
         try:
             while not self.document_loaded:
                 print("\n[!] To use this system, you must first load a document.")
@@ -638,7 +617,6 @@ Common applications of machine learning include recommendation systems used by N
             return
 
 
-# ==================== MAIN FUNCTION ====================
 
 def main():
     """Main function to run the interactive system"""
